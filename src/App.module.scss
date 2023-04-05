@@ -1,3 +1,13 @@
+$font-inter: url("/path/to/inter/font/Inter-Regular.ttf");
+@mixin font-inter {
+  font-family: "Inter", sans-serif;
+  src: #{$font-inter};
+}
+
+body {
+  @include font-inter;
+}
+
 .container {
   max-width: 1440px;
   background-color: #fdfcfc;
