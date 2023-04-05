@@ -1,6 +1,7 @@
 import { useState, useContext, useEffect } from 'react'
 import styles from "./App.module.scss"
-import picture1 from "../image/picture1.jpg"
+import viteLogo from './assets/picture1.jpg'
+// import picture1 from "../image/picture1.jpg"
 function App() {
 
   const [count, setCount] = useState(0)
@@ -31,7 +32,7 @@ function App() {
         </div>
         <div>
           {/* <image></image> */}
-          <img className={styles.img} src='../image/picture2.png'></img>
+          <img className={styles.img} src={viteLogo}></img>
         </div>
       </div>
       <div className={styles.companies}>
