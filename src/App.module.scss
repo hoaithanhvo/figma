@@ -248,7 +248,14 @@ body {
       margin: 0 auto;
       // font-size: 48px;
       max-width: 435px;
+      font-size: 48px;
       // height: 102px;
+    }
+    @include breakpoint(mobile) {
+      .read {
+        // color: red;
+        font-size: 27px;
+      }
     }
     .testimonial {
       display: flex;
@@ -680,7 +687,7 @@ body {
       position: absolute;
       margin: 0 auto;
       // font-weight: bold;
-      font-size: 25px;
+      font-size: 26px;
       // margin: 0 24px;
       right: 24px;
       left: 24px;
